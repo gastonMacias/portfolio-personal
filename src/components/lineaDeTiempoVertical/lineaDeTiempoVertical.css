@@ -1,0 +1,15 @@
+.vertical-timeline-element-title {
+    font-family: "Poppins", sans-serif;
+    color: var(--color-primary) !important;
+}
+
+.vertical-timeline-element-subtitle {
+    font-family: "Source Code Pro", monospace;
+    color: var(--color-primary-dark) !important;
+}
+
+.vertical-timeline-element-text {
+    font-family: "Source Code Pro", monospace;
+    color: var(--color-primary-dark) !important;
+    font-size: 0.8rem !important;
+}
