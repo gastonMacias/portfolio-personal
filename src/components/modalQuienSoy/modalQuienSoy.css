@@ -61,21 +61,17 @@
 }
 
 /* Estilos del contenido dentro del modal */
-.modal-datos {
+.modal-datos p{
     margin-top: 20px;
-    color: #333;
+    color: var(--color-primary-dark);
     font-size: 0.80rem;
     line-height: 1.5;
-}
-
-.datos-quienSoy {
     font-family: "Source Code Pro", monospace;
-    color: var(--color-primary-dark);
 }
 
 /* Para mejorar la apariencia del botón al pasar el mouse */
 .modal-close:hover {
-    color: var(--color-primary-dark);
+    color: var(--color-primary);
 }
 
 .resalte-quienSoy {
