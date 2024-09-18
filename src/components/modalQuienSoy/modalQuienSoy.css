@@ -1,0 +1,86 @@
+/* en este css me quedo los estilos grales de todos los modales */
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-background-light-modal); /* Fondo semitransparente */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+}
+
+/* Cuando el modal está activo */
+.modal.is-open {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Contenedor del contenido del modal */
+.modal-container {
+    background-color: var(--color-background-extra-light);
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 1000px; /* ancho maximo del modal */
+    width: 100%;
+    max-height: 80vh; /* Limita la altura del modal al 80% de la altura de la ventana */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.741); /* Sombra sutil */
+    position: relative;
+    overflow-y: auto;
+}
+
+/* Estilo para el encabezado del modal */
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+
+
+/* Botón de cerrar */
+.modal-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Estilos del contenido dentro del modal */
+.modal-datos {
+    margin-top: 20px;
+    color: #333;
+    font-size: 0.80rem;
+    line-height: 1.5;
+}
+
+.datos-quienSoy {
+    font-family: "Source Code Pro", monospace;
+    color: var(--color-primary-dark);
+}
+
+/* Para mejorar la apariencia del botón al pasar el mouse */
+.modal-close:hover {
+    color: var(--color-primary-dark);
+}
+
+.resalte-quienSoy {
+    font-family: "Poppins", sans-serif;
+    color: var(--color-accent);
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
