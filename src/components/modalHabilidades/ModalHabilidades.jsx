@@ -1,18 +1,19 @@
 import SeccionHabilidades from "../seccionHabilidadesFront/SeccionHabilidadesFront";
 import SeccionHabilidadesTesting from "../seccionHabilidadesTesting/SeccionHabilidadesTesting";
 import "./modalHabilidades.css";
+import { IoClose } from "react-icons/io5";
 
-
-const ModalHabilidades = ({show, handleClose}) => {
+const ModalHabilidades = ({ show, handleClose }) => {
 
     if (!show) return null;
-    
+
     return (
         <article className="modal is-open">
+
             <div className="modal-container">
+                <button className="modal-close" onClick={handleClose}><IoClose /></button>
                 <div className="modal-header">
                     <h2>Habilidades</h2>
-                    <button className="modal-close" onClick={handleClose}>X</button>
                 </div>
                 <div className="modal-datos">
                     <h3>Habilidades Frontend</h3>

@@ -3,8 +3,9 @@
 
 .modal {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -28,9 +29,9 @@
     background-color: var(--color-background-extra-light);
     padding: 40px;
     border-radius: 8px;
-    max-width: 1000px; /* ancho maximo del modal */
+    max-width: 850px; /* ancho maximo del modal */
     width: 100%;
-    max-height: 80vh; /* Limita la altura del modal al 80% de la altura de la ventana */
+    max-height: 90vh; /* Limita la altura del modal al 80% de la altura de la ventana */
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.741); /* Sombra sutil */
     position: relative;
     overflow-y: auto;
@@ -51,7 +52,7 @@
 .modal-close {
     background: none;
     border: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     cursor: pointer;
     color: #333;
     position: absolute;
