@@ -8,8 +8,8 @@ const Footer = () => {
             
             <div className="iconos-sociales">
                 <a href="https://www.linkedin.com/in/gastonezequielmacias" target="_blank"><FaLinkedinIn /></a>
-                <a href="https://github.com/Ikkitonga" target="_blank"><FaGithub /></a>
-                <a href="https://wa.me/54911159362462" target="_blank"><FaWhatsapp /></a>
+                <a href="https://github.com/gastonMacias" target="_blank"><FaGithub /></a>
+                <a href="https://wa.me/5491159362462" target="_blank"><FaWhatsapp /></a>
             </div>
         </footer>
     )
