@@ -1,0 +1,40 @@
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    text-align: center;
+    background-color: var(--color-background-extra-light); /* Fondo claro que puede adaptarse bien con la paleta 'Ocean Breeze' */
+    color: var(--color-primary-dark);
+    padding: 2rem;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .nombre {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .nombre-destaque {
+    color: var(--color-accent); 
+  }
+  
+  .rol {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--color-accent); 
+    margin-bottom: 1rem;
+  }
+  
+  .descripcion {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--color-primary-dark);
+  }
+  
+  .destaque {
+    font-weight: bold;
+    color: var(--color-accent); 
+  }
