@@ -1,4 +1,4 @@
-// import Footer from "../components/footer/Footer";
+import Footer from "../components/footer/Footer";
 // import Navbar from "../components/navbar/Navbar";
 import SeccionPresentacion from "../components/seccionPresentacion/SeccionPresentacion";
 
@@ -8,7 +8,7 @@ const Home = () => {
     return <>
         {/* <Navbar /> */}
         <SeccionPresentacion />
-        {/* <Footer /> */}
+        <Footer />
     </>
 }
 
