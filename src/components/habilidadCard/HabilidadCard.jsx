@@ -5,7 +5,7 @@ const HabilidadCard = ({ icon: Icon, percentage, skillName }) => {
         <div className="card">
             {/* Pasamos el porcentaje como estilo */}
             <div style={{ '--porcentaje': percentage }} className="porcentaje">
-                <svg width="100" height="100">
+                <svg width="90" height="90">
                     {/* Ajustamos el pathLength para trabajar con porcentaje */}
                     <circle r="35" cx="50%" cy="50%" pathLength="100" />
                     <circle r="35" cx="50%" cy="50%" pathLength="100" />

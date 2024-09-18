@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 150px;
+    width: 130px;
     height: 185px;
     border: 1px solid var(--color-background-light);
     margin: 5px;
@@ -34,8 +34,8 @@ circle:nth-child(2) {
 
 .porcentaje {
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
 }
 
 .icono {
@@ -47,7 +47,7 @@ circle:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem; /* Ajusta el tamaño del ícono */
+    font-size: 1.8rem; /* Ajusta el tamaño del ícono */
     color: var(--color-primary); /* Color del ícono */
 }
 
