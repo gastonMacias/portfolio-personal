@@ -9,6 +9,7 @@ import ModalQuienSoy from "../modalQuienSoy/ModalQuienSoy";
 import ModalHabilidades from "../modalHabilidades/ModalHabilidades";
 import ModalCarrera from "../modalCarrera/ModalCarrera";
 import ModalContacto from "../modalContacto/ModalContacto";
+import ModalProyectos from "../modalProyectos/ModalProyectos";
 
 
 const Navbar = () => {
@@ -28,8 +29,12 @@ const Navbar = () => {
     const modalCarreraOpen = () => setModalCarrera(true);
 
     const [modalContacto, setModalContacto] = useState(false);
-    const modalContactoClose = () => setModalContacto(false); 
+    const modalContactoClose = () => setModalContacto(false);
     const modalContactoOpen = () => setModalContacto(true);
+
+    const [modalProyectos, setModalProyectos] = useState(false);
+    const modalProyectosClose = () => setModalProyectos(false);
+    const modalProyectosOpen = () => setModalProyectos(true);
 
 
     useEffect(() => {
@@ -68,13 +73,15 @@ const Navbar = () => {
                 <li className="list__item"><button onClick={modalQuienSoyOpen}>Quien soy</button></li>
                 <li className="list__item"><button onClick={modalHabilidadesOpen}>Habilidades</button></li>
                 <li className="list__item"><button onClick={modalCarreraOpen}>Carrera</button></li>
+                <li className="list__item"><button onClick={modalProyectosOpen}>Proyectos</button></li>
                 <li className="list__item"><button onClick={modalContactoOpen}>Contacto</button></li>
             </ul>
         </nav>
-        <ModalQuienSoy show={modalQuienSoy} handleClose={modalQuienSoyClose}/>
-        <ModalHabilidades show={modalHabilidades} handleClose={modalHabilidadesClose}/>
-        <ModalCarrera show={modalCarrera} handleClose={modalCarreraClose}/>
-        <ModalContacto show={modalContacto} handleClose={modalContactoClose}/>
+        <ModalQuienSoy show={modalQuienSoy} handleClose={modalQuienSoyClose} />
+        <ModalHabilidades show={modalHabilidades} handleClose={modalHabilidadesClose} />
+        <ModalCarrera show={modalCarrera} handleClose={modalCarreraClose} />
+        <ModalProyectos show={modalProyectos} handleClose={modalProyectosClose} />
+        <ModalContacto show={modalContacto} handleClose={modalContactoClose} />
     </header>
 }
 
