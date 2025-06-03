@@ -1,4 +1,4 @@
-import "./ModalQuienSoy.css";
+import "./modalQuienSoy.css";
 import { IoClose } from "react-icons/io5";
 
 
