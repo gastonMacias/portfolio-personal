@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Libreria Creativa Valky",
+    "description": "E-commerce de articulos de libreria Personalizada",
+    "image": "/imagenes/libreriaCreativaValky.jpg",
+    "link": "https://proyecto-valky.vercel.app/",
+    "detalles": "La pagina se realizo con REACT-Vite, los estilos se hicieron con tailwind, se utilizo React-router-DOM, Material UI Icon"
+  }
+]
+
+
