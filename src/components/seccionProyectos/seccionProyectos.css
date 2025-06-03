@@ -1,0 +1,54 @@
+.proyectos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proyectos__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    width: 230px;
+    padding: 5px;
+}
+
+.card__image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.card__title {
+    text-align: center;
+    font-family: "Source Code Pro", monospace;
+    color: var(--color-primary-dark);
+}
+
+.card__text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.card__link {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 8px;
+    border-radius: 10px;
+    font-family: "Source Code Pro", monospace;
+    font-weight: bold;
+    border: 2px solid rgb(28, 110, 164);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.card__link a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
