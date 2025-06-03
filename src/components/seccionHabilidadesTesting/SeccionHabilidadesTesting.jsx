@@ -1,4 +1,4 @@
-import "./SeccionHabilidadesTesting.css";
+import "./seccionHabilidadesTesting.css";
 import HabilidadCard from "../habilidadCard/HabilidadCard";
 import { FaBookmark, FaRegBookmark  } from "react-icons/fa";
 import { SiSpeedtest, SiApachejmeter, SiJirasoftware, SiSelenium, SiPostman } from "react-icons/si";
