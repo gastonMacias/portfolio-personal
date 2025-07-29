@@ -10,7 +10,7 @@ const SeccionHabilidadesFront = () => {
             <HabilidadCard icon={FaHtml5} percentage={90} skillName="HTML"/>
             <HabilidadCard icon={FaCss3Alt} percentage={75} skillName="CSS"/>
             <HabilidadCard icon={FaJsSquare} percentage={80} skillName="JavaScript" />
-            <HabilidadCard icon={FaReact} percentage={90} skillName="React" />
+            <HabilidadCard icon={FaReact} percentage={80} skillName="React" />
             <HabilidadCard icon={FaBootstrap} percentage={90} skillName="Bootstrap" />
             <HabilidadCard icon={FaGithub} percentage={70} skillName="Github" />
             <HabilidadCard icon={FaFigma} percentage={60} skillName="Figma" />
